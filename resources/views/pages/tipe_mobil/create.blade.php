@@ -11,7 +11,7 @@
         </div>
         <div class="card shadow">
             <div class="card-body">
-                <form action="/tipemobil/update/{$tip}" method="POST">
+                <form action="/tipemobil/simpan-data" method="POST">
                     @csrf
                     <div class="form-group">
                         <label for="">Tipe Mobil</label>
